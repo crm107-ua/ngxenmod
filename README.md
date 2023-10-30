@@ -1,4 +1,5 @@
-#ngxenmod
+
+# ngxenmod
 
  `ngxenmod` es un script de Bash diseñado para facilitar la habilitación de módulos en el servidor web Nginx, de una manera similar a cómo `a2enmod` funciona para Apache. Este script crea enlaces simbólicos en el directorio de módulos habilitados de Nginx, y recarga la configuración del servidor para aplicar los cambios.
 
