@@ -25,10 +25,10 @@
 
  ## Directorios
 
- - **Módulos Disponibles**: `/etc/nginx/modules-available/`  
+ - **Módulos Disponibles**: `/etc/nginx/sites-available/`  
    Este directorio debe contener los archivos de módulos que se pueden habilitar.
 
- - **Módulos Habilitados**: `/etc/nginx/modules-enabled/`  
+ - **Módulos Habilitados**: `/etc/nginx/sites-enabled/`  
    Este directorio contendrá enlaces simbólicos a los módulos habilitados.
 
  ## Funcionamiento
@@ -92,7 +92,7 @@ sudo ngxdismod modulo1 [modulo2 ...]
 
 ## Directorios
 
-- **Módulos Habilitados**: `/etc/nginx/modules-enabled/`  
+- **Módulos Habilitados**: `/etc/nginx/sites-enabled/`  
   Este directorio contendrá enlaces simbólicos a los módulos habilitados. Los enlaces simbólicos de los módulos que deseas deshabilitar serán eliminados de este directorio.
 
 ## Funcionamiento
