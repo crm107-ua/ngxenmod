@@ -15,10 +15,10 @@ if [ "$#" -lt 1 ]; then
 fi
 
 # Directorio donde se encuentran los módulos disponibles
-MOD_AVAILABLE_DIR="/etc/nginx/modules-available"
+MOD_AVAILABLE_DIR="/etc/nginx/sites-available"
 
 # Directorio donde se crearán los enlaces simbólicos para habilitar los módulos
-MOD_ENABLED_DIR="/etc/nginx/modules-enabled"
+MOD_ENABLED_DIR="/etc/nginx/sites-enabled"
 
 # Crear el directorio de módulos habilitados si no existe
 if [ ! -d "$MOD_ENABLED_DIR" ]; then
