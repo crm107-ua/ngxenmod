@@ -15,7 +15,7 @@ if [ "$#" -lt 1 ]; then
 fi
 
 # Directorio donde se encuentran los módulos habilitados
-MOD_ENABLED_DIR="/etc/nginx/modules-enabled"
+MOD_ENABLED_DIR="/etc/nginx/sites-enabled"
 
 # Función para deshabilitar un módulo
 disable_module() {
